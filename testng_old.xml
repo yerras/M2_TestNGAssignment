@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true"
+    <test verbose="2" preserve-order="false"
           name="C:/Users/yerras/Documents/Personal/Axone_DevInTest/Assignment6/M2_TestNGAssignment/src/test/java/uk/epreuveiot/com/TestNGAssignment.java">
-        <groups>
+        <!--<groups>
             <run>
                 <include name="smoketest"/>
                 <include name="functest"/>
                 <exclude name="regtest"/>
             </run>
-        </groups>
+        </groups>-->
         <classes>
             <class name="uk.epreuveiot.com.TestNGAssignment"/>
         </classes>
